@@ -154,6 +154,7 @@ namespace MethodsPractice
             this.radiusInput.Size = new System.Drawing.Size(100, 24);
             this.radiusInput.TabIndex = 10;
             this.radiusInput.Text = "0";
+            this.radiusInput.TextChanged += new System.EventHandler(this.radiusInput_TextChanged);
             // 
             // radiusLabel
             // 
